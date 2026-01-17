@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - S.B.S.G. Jr. College</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Fade-in for whole page */
+    body {
+      animation: fadeIn 1.2s ease-in-out;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Header Slide down */
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #2b4eff;
+      color: white;
+      animation: slideDown 1s ease;
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Navigation with hover animation */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #f4f4f4;
+      padding: 12px;
+      animation: fadeUp 1.2s ease-in-out;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      padding: 6px 10px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #2b4eff;
+      transform: scale(1.15);
+    }
+
+    /* Hero section fade-up */
+    .hero {
+      text-align: center;
+      padding: 50px;
+      animation: fadeUp 1.5s ease-in-out;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Footer fade-in */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+      animation: fadeIn 2s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav>
+    <a href="krushna&bhavesh.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="streams.html">Stream</a>
+    <a href="gallary.html">Gallery</a>
+    <a href="contacs.html">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Get in Touch</h2>
+    <p>📍 Address: S.B.S.G. Jr. College, Panchale, Maharashtra</p>
+    <p>📞 Phone: +91-7770007789</p>
+    <p>✉️ Email: info@sbsgcollege.in</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 S.B.S.G. Jr. College Panchale.</p>
+  </footer>
+
+</body>
+</html>
