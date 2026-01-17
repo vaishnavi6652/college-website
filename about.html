@@ -1,0 +1,120 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | InCollege</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Fade-in animation for header and footer */
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        /* Navigation hover animation */
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+            transform: scale(1.1);
+        }
+
+        /* Animated container */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeUp 1.2s ease-out forwards;
+            animation-delay: 0.3s;
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Keyframes */
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>InCollege</h1>
+        <nav>
+            <a href="Krushna&Bhavesh.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="loginpage.html">Login</a>
+            <a href="SingUpPage.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>About InCollege</h2>
+        <p><strong>InCollege</strong> is a professional networking platform designed exclusively for college students. Our mission is to help students build their professional presence, connect with peers and mentors, and find internships and job opportunities in their field of study.</p>
+
+        <p>We believe that every student should have the opportunity to start building their career path early. InCollege provides resources such as:</p>
+        <ul>
+            <li>Resume-building tools</li>
+            <li>Job and internship listings</li>
+            <li>Professional networking with fellow students</li>
+            <li>Career advice and educational content</li>
+        </ul>
+              <p>About Our College
+SBSSG Jr. College, Panchale, is committed to providing quality education in Science, Commerce, and Arts. Our goal is to empower students with knowledge, values, and skills that shape their future. The college focuses on academic excellence, discipline, and overall personality development.
+</p>
+    <p>Principal
+Hon. V. B. Pawar Sir
+Under his visionary leadership, the college has progressed with outstanding academic and cultural achievements. His guidance inspires students to excel in all fields.
+</p>
+    <p>Secretary
+Shri. Rajesh Gadhakh Sir
+With his dynamic support, the institution continuously develops facilities, opportunities, and educational standards for students’ bright future.
+
+</p>
+        <p>Join us today and take the first step towards your future career.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 InCollege. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
