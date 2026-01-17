@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Info Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Info Hub</h1>
+        <p>Learn interesting facts about your favorite animals!</p>
+    </header>
+
+    <main class="animal-grid">
+        <div class="animal-card">
+            <img src="https://example.com/lion.jpg" alt="Lion">
+            <h2>Lion</h2>
+            <p>The lion is known as the king of the jungle and lives in groups called prides.</p>
+        </div>
+
+        <div class="animal-card">
+            <img src="https://example.com/elephant.jpg" alt="Elephant">
+            <h2>Elephant</h2>
+            <p>Elephants are the largest land animals and have excellent memory.</p>
+        </div>
+
+        <div class="animal-card">
+            <img src="https://example.com/penguin.jpg" alt="Penguin">
+            <h2>Penguin</h2>
+            <p>Penguins are flightless birds that are excellent swimmers and live in cold climates.</p>
+        </div>
+
+        <!-- Add more animals here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Animal Info Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
